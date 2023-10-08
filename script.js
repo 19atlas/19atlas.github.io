@@ -1,4 +1,5 @@
 const projectContents = document.querySelectorAll('.project-content');
+
 const prevButton = document.getElementById('prev-button');
 const nextButton = document.getElementById('next-button');
 let currentProject = 0;
@@ -21,9 +22,6 @@ nextButton.addEventListener('click', () => {
     currentProject = (currentProject + 1) % projectContents.length;
     showProject(currentProject);
 });
-
-// Show the initial project (Fetrust)
-showProject(currentProject);
 
 document.addEventListener('DOMContentLoaded', function () {
     const projectContents = document.querySelectorAll('.project-content');
