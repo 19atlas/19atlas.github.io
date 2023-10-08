@@ -1,98 +1,32 @@
 <!DOCTYPE html>
-<html lang="tr-TR">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>19atlas's Projects</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #183d80; /* Dark blue background */
-            color: #fafafa; /* White text */
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #2f62c0; /* Slightly lighter blue for the header */
-            padding: 20px 0;
-            text-align: center;
-            color: #ffffff;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-        .linkcolor {
-            color: rgb(179, 157, 37);
-            background-color: transparent;
-            text-decoration: none;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .project {
-            background-color: #328499cc; /* Darker blue for project containers */
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-
-        .project h2 {
-            font-size: 24px;
-        }
-
-        .project p {
-            font-size: 16px;
-        }
-        a {
-            color:rgb(0, 37, 92);
-        }
-        footer.a{
-            color: aqua;
-        }
-
-        /* helo hacker */
-
-        /* Footer styles */
-        footer {
-            background-color: #051c47;
-            padding: 10px 0;
-            text-align: center;
-            color: #ffffff;
-        }
-
-    </style>
+    <!-- <script src="https://librejs.org/librejs/releases/latest/librejs.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>My Projects</title>
 </head>
 <body>
-    <header>
-        <h1>My Cool Projects</h1>
-    </header>
-    <div class="container">
-        <div class="project">
-            <a href="https://github.com/19atlas/vimixos" target="_blank"><h2 >Vimixos</h2></a>
-            <p>Very fantastic os you would love xd</p>
+    <script src="script.js"></script>
+    <div class="project-card">
+        <div class="project-content" id="project-1">
+            <h2>Fetrust</h2>
+            <!-- Add project details and images here -->
         </div>
-        <div class="project">
-            <a href="https://github.com/19atlas/binux-WL" target="_blank"><h2 >BINUX-WL</h2></a>
-            <p>my fork of my friend's OS.</p>
-            <a href="https://github.com/mertoalex/binux-WL-old" target="_blank">original base project (you should give a star)</a>
+        <div class="project-content" id="project-2">
+            <h2>Vimixos</h2>
+            <!-- Add project details and images here -->
         </div>
-        <div class="project">
-            <a href="https://github.com/19atlas/fetrust" target="_blank"><h2 >Fetrust a Fetching Tool</h2></a>
-            <p>Fetching Tool project writen in RUST!</p>
-            <p>hmm maybe i delete this xd</p>
+        <div class="project-content" id="project-3">
+            <h2>Harday</h2>
+            <!-- Add project details and images here -->
         </div>
     </div>
-    <footer>
-        <p>&copy; 2023 19atlas this site under the AGPLv3</p>
-        <p><a href="https://freecreyde.vern.cc">my personal website</a></p>
-        <a><img alt="Use AGPLv3!" src="https://gcdn.vern.cc/users/cobra/website/buttons/agplv3.png"></a>
-        <p>AGPL btw</p>
-    </footer>
+    <div class="navigation">
+        <button id="prev-button"><img src="ikon/left-arrow.png"></button>
+        <button id="next-button"><img src="ikon/right.png"></button>
+    </div>
+    
 </body>
 </html>
